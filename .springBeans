@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beansProjectDescription>
+	<version>1</version>
+	<pluginVersion><![CDATA[3.9.2.201712210913-RELEASE]]></pluginVersion>
+	<configSuffixes>
+		<configSuffix><![CDATA[xml]]></configSuffix>
+	</configSuffixes>
+	<enableImports><![CDATA[false]]></enableImports>
+	<configs>
+	</configs>
+	<autoconfigs>
+		<config>java:shop.microservices.accounts.AccountsMain</config>
+		<config>java:shop.microservices.products.ProductsMain</config>
+		<config>java:shop.microservices.services.products.ProductsServer</config>
+		<config>java:shop.microservices.services.registration.RegistrationServer</config>
+	</autoconfigs>
+	<configSets>
+		<configSet>
+			<name><![CDATA[system]]></name>
+			<allowBeanDefinitionOverriding>true</allowBeanDefinitionOverriding>
+			<incomplete>false</incomplete>
+			<configs>
+			</configs>
+			<profiles>
+			</profiles>
+		</configSet>
+	</configSets>
+</beansProjectDescription>
