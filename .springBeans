@@ -9,11 +9,10 @@
 	<configs>
 		<config>java:store.microservices.services.products.ProductsServer</config>
 		<config>java:store.microservices.services.registration.RegistrationServer</config>
-		<config>java:store.microservices.services.shop.ShopServer</config>
-		<config>java:store.microservices.shop.ShopMain</config>
 	</configs>
 	<autoconfigs>
 		<config>java:store.microservices.products.ProductsMain</config>
+		<config>java:store.microservices.shop.ShopMain</config>
 	</autoconfigs>
 	<configSets>
 		<configSet>

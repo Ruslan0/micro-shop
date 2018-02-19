@@ -2,7 +2,6 @@ package store.microservices.services;
 
 import store.microservices.services.products.ProductsServer;
 import store.microservices.services.registration.RegistrationServer;
-import store.microservices.services.shop.ShopServer;
 
 /**
  * Allow the servers to be invoked from the command-line. The jar is built with
@@ -39,9 +38,6 @@ public class Main {
 				break;
 			case "products":
 				ProductsServer.main(args);
-				break;
-			case "shop":
-				ShopServer.main(args);
 				break;
 			default:
 				System.out.println("Unknown server type: " + serverName);
