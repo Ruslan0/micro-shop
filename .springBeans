@@ -7,12 +7,13 @@
 	</configSuffixes>
 	<enableImports><![CDATA[false]]></enableImports>
 	<configs>
+		<config>java:store.microservices.services.products.ProductsServer</config>
+		<config>java:store.microservices.services.registration.RegistrationServer</config>
+		<config>java:store.microservices.services.shop.ShopServer</config>
+		<config>java:store.microservices.shop.ShopMain</config>
 	</configs>
 	<autoconfigs>
-		<config>java:shop.microservices.accounts.AccountsMain</config>
-		<config>java:shop.microservices.products.ProductsMain</config>
-		<config>java:shop.microservices.services.products.ProductsServer</config>
-		<config>java:shop.microservices.services.registration.RegistrationServer</config>
+		<config>java:store.microservices.products.ProductsMain</config>
 	</autoconfigs>
 	<configSets>
 		<configSet>
