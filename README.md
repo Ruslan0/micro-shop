@@ -25,6 +25,6 @@ To do this, open three CMD windows (Windows) or three Terminal windows (MacOS, L
  it to start up
  5. In the third window run: `java -jar shop-microservices-1.1.0.RELEASE.jar`
  6. In your favorite browser open the same three links: [http://localhost:1111](http://localhost:1111) , [http://localhost:4444](http://localhost:4444) and [http://localhost:2222](http://localhost:2222) 
-
+ 7. Add in hosts localhost my-eureka-server.com
 You should see servers being registered in the log output of the first (registration) window.
 
